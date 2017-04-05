@@ -9,7 +9,6 @@ int main(){
 			if((k-32+offset)%96+32==str[i]){
 				offset=k-32;
 				ans+=k;
-				point++;
 				break;
 			}
 		} 
